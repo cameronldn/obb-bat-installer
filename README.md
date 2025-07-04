@@ -3,9 +3,9 @@
 A simple batch script that can be used to automate the installation of an APK and OBB.
 Handles renaming of the OBB file if it's in the incorrect format (Unity builds).
 
+User is prompted for Project Name, Version Code and whether a reinstall is required. These values can be prefileld directly in the script, to avoid input each run.
+
 ## Getting Started
-
-
 
 ### Prerequisites
 
