@@ -36,8 +36,8 @@ The project_name, version_code & reinstall varables can be prefilled in the scri
 
 **User Input:**
 
-![Without pre-filled data](noPrefillDemo.png "Terminal image of obb_ins.bat")
+![Without pre-filled data](assets/noPrefillDemo.png "Terminal image of obb_ins.bat")
 
 **Prefilled:**
 
-![With pre-filled data](withPrefillDemo.png "Terminal image of obb_ins.bat")
+![With pre-filled data](assets/withPrefillDemo.png "Terminal image of obb_ins.bat")
