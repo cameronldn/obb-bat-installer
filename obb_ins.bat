@@ -39,7 +39,7 @@ for %%F in ("%cd%\*%_APK_WILDCARD%") do (
     set "APK=%%~nF.apk"
     echo Found file:
     echo %%F
-    echo APK: %fileName%
+    echo APK: %APK%
     goto :end
 )
 :end
