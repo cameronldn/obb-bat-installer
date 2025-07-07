@@ -27,9 +27,9 @@ for %%F in ("%cd%\*%_OBB_WILDCARD%") do (
     echo Renaming file:
     echo %%F
     echo to
-    echo "main.%project_name%.%version_code%%%~xF"
-    rename "%%F" "main.%project_name%.%version_code%%%~xF"
-    set "OBB=main.%project_name%.%version_code%%%~xF"
+    echo "main.%version_code%.%project_name%%%~xF"
+    rename "%%F" "main.%version_code%.%project_name%%%~xF"
+    set "OBB=main.%version_code%.%project_name%%%~xF"
     goto :end
 )
 :end
